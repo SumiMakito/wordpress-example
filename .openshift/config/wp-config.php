@@ -99,8 +99,9 @@ foreach ($array as $key => $value) {
  */
 $table_prefix  = 'wp_';
 
-/**
- * WordPress Localized Language, defaults to English.
+define( 'WP_CACHE', true );
+
+/* * WordPress Localized Language, defaults to English.
  *
  * Change this to localize WordPress. A corresponding MO file for the chosen
  * language must be installed to wp-content/languages. For example, install
